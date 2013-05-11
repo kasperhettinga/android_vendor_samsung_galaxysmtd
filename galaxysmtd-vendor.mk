@@ -29,3 +29,5 @@ DEVICE_PACKAGE_OVERLAYS := vendor/samsung/aries-common/overlay
 
 $(call inherit-product, vendor/samsung/galaxysmtd/galaxysmtd-vendor-blobs.mk)
 $(call inherit-product, vendor/samsung/aries-common/aries-vendor-blobs.mk)
+$(call inherit-product, vendor/gapps/gapps-vendor-blobs.mk)
+
